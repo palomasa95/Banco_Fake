@@ -4,3 +4,6 @@ env/
 
 # Ignorar todos os dados gerados e o banco de dados
 data/
+
+# IGNORAR ARQUIVOS DE CHAVES SENSÍVEIS
+.MeuTokenLubuntu.txt.gpg

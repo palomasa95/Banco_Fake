@@ -64,3 +64,9 @@ Habilidades alvo:
 
 6 directories, 12 files
 * **Ação:** Primeiro commit Git (Hash: de13274) realizado com sucesso. Estrutura finalizada, scripts e logbook versionados no branch 'main'. Fim da rotina de segurança diária.
+* **Ação:** Criação do arquivo README.md para documentação inicial do projeto, estrutura, e pipeline de execução.
+* **Ação:** Conexão do repositório local com o GitHub remoto (palomasa95/Banco_Fake).
+* **Problema Resolvido (Git):** Superada a falha de autenticação do GitHub (erro 403) usando o Token de Acesso Pessoal (PAT) com permissão 'Contents: Read and write'.
+* **Ação Crítica:** Implementada rotina de segurança para chaves sensíveis: PAT e descrição de segurança criptografados com gpg -c em .MeuTokenLubuntu.txt.gpg.
+* **Ação:** Removido arquivo de texto simples (.MeuTokenLubuntu.txt) após confirmação de acesso à chave criptografada.
+* **Ação:** Atualizado o .gitignore para incluir .MeuTokenLubuntu.txt.gpg, prevenindo o upload de chaves para o GitHub.
