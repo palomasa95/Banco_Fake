@@ -1,0 +1,6 @@
+# Ignorar ambiente virtual
+db_venv/
+env/
+
+# Ignorar todos os dados gerados e o banco de dados
+data/
